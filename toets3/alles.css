@@ -1,0 +1,31 @@
+.h1{
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: rgb(1, 1, 113);
+    margin: auto;
+}
+.flex{
+    display: flex;
+    background-color: rgb(203, 203, 203);
+}
+a{
+
+ margin: 3vh;
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(1, 1, 113);
+    border: none;
+    margin: 5px 30px 5px 10px;
+  
+    width: auto;
+    height: 30px;
+}
+.content{
+    margin-top: 10px;
+}

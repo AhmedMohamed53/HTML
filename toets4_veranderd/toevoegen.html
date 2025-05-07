@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+        <div id="wrapper">
+            <nav>
+                <a class="not_active" href="index.php">Home</a>
+                <a class="active" href="toevoegen.php">Toevoegen</a>
+                <a class="not_active" href="herstel.php">Herstellen</a>
+            </nav>
+            
+                <form action="toevoegen.php" method="post">
+                    <label >Voornaam:</label>
+                    <input type="text" id="voornaam"  name="voornaam" ><br>
+                    <br>
+                    <label>Achternaam:</label>
+                    <input type="text" id="achternaam" name="achternaam" ><br>
+                    <br>
+                    <label for="telefoon">Geboortedatum:</label>
+                    <input type="date" id="birth" name="birth" ><br>
+                    <br>
+                    <label for="email">Foto URL:</label>
+                    <input type="text" id="url" name="url" ><br>
+                    <br>
+                    <input type="submit" id="submit" value="Voeg voetballer toe">
+</form>
+            </div>
+</body>
+</html>

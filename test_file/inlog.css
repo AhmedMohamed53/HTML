@@ -1,0 +1,51 @@
+body {  
+    background:  url(https://img-cdn.pixlr.com/image-generator/history/6759aaf7e3d7d461fa4c9caf/5d68dbe8-c4dd-4827-b8d8-3de1f4e41715/preview.webp);
+    display: flex;  
+    justify-content: center; 
+    align-items: center;    
+    height: 90vh;         
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Comic Sans MS;
+    color: rgb(217, 76, 123);
+}  
+.border{
+    padding-top: 8vh;
+    padding-right: 20vh;
+    padding-left: 20vh;
+    padding-bottom: 8vh;
+    border: solid 1px rgb(221, 107, 107);
+    box-shadow:  0px 1px 8px 3px rgb(221, 107, 107);
+    border-radius: 30px;
+    backdrop-filter: blur(6px);
+
+}
+.flex{
+    display: flex;
+}
+
+.benden{
+    color: black;
+    margin-top: 1vh;
+    background: rgb(255, 121, 121, 0.3);
+    border: none;
+    width: 14vh;
+    height: 8vh;
+    border-radius: 30px ;
+}
+.rechts{
+    width: 25vh;
+    font-size: medium;
+    font-family: Comic Sans MS;
+    color: rgb(255, 121, 121);
+    background: transparent;
+    border-color: rgb(218, 173, 173);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 2vh;
+    margin-bottom: 3vh;
+    
+
+}
